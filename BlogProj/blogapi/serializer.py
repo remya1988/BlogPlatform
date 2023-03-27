@@ -23,7 +23,7 @@ class UserSerializer(serializers.ModelSerializer):
         send_mail(
             "Blog Platform : New User Registration",
             f"Created your account....Your username is  {username} and password is {password}",
-            "remyapillai1988@gmail.com",
+            "remyatestwork@gmail.com",
             [email]
         )
         return user
@@ -68,7 +68,7 @@ class AdminUserSerializer(serializers.ModelSerializer):
         send_mail(
             "Blog Platform : New Admin User Registration",
             f"Created your account....Your username is  {username} and password is {password}",
-            "remyapillai1988@gmail.com",
+            "remyatestwork@gmail.com",
             [email]
         )
         return user
